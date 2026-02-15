@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: neural-alpha-engine
+Version: 0.1.0
+Summary: Research-grade pipeline for financial ML with leakage-safe validation and costs.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"
+Dynamic: license-file

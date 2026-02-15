@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+
+[dev]
+pytest
+pytest-cov
+ruff
+mypy
+ipykernel
